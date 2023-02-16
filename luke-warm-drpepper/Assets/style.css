@@ -1,0 +1,220 @@
+:root {
+    --dark: #473b96;
+    --medium: #645178;
+    --light: #b2d6cd;
+    --red: #9c0606;
+}
+* {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    flex: 1 1 1;
+    color: var(--light);
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(var(--dark), var(--medium));
+}
+header {
+    display: inline-flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f0843;
+    font: var(--light);
+    height: 100px;
+}
+h1 {
+    font-size: 100px;
+}
+h2{
+    font-size: 30px;
+    margin: 10px;
+    right: 25px;
+    background-color: #1f0843;
+    
+}
+nav {
+    display: inline;
+   
+}
+nav ul {
+    
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 100%;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+
+}
+nav li {
+    
+    
+    background-color:var(--medium);
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid var(--dark)
+    border-radius: 8px;
+}
+nav li:hover {
+    background-color: var(--red);
+}
+nav li:active {
+    text-decoration: wavy;
+}
+#aboutme {
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+}
+#aboutmetitle {
+    right: 25px;
+}
+
+#aboutme p {
+    flex: wrap;
+
+}
+#aboutme img {
+    display: flex;
+    flex-shrink: inherit;
+}
+
+#book {
+    color: aquamarine;
+    text-decoration: underline;
+}
+main {
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    max-width:95%;
+    margin: 10px auto;
+    font: var(--light);
+    justify-content: center;
+
+}
+
+#workstitle {
+    right: 25px;
+}
+.card {
+    display: table;
+    columns: 2;
+    flex: 4;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.example {
+    justify-content: space-evenly;
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 15px var(--dark);
+    background-color: var(--dark); 
+    
+
+}
+
+.example:hover {
+    box-shadow: 15px 15px 15px 15px #b2d6cd;
+    cursor: grab;
+}
+
+.example img {
+    
+    border: 2px solid black;
+    max-width: inherit;
+    max-height: inherit;
+    
+}
+
+#example1 {
+    display: flex;
+    float: left;
+}
+#example2 {
+    display: flex;
+    float: right;
+}
+#example3 {
+    display: flex;
+    float: left;
+}
+#example4 {
+    display: flex;
+    float: right;
+}
+form {
+    width: 500px;
+    align-self: center;
+    
+}
+button {
+    background-color: silver;
+    color: var(--dark);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 130px;
+    align-self: center;
+    
+
+}
+
+button:hover {
+    box-shadow: 15px #b2d6cd;
+}
+
+button:active {
+    background-color: grey;
+    box-shadow: 15px lightgreen;
+}
+
+@media screen and (max-width: 700px ) {
+    h1 {
+        font-size: 50px}
+    .card{
+        align-items: center;;
+        
+    }
+    .example {
+        align-items: center;
+    }
+    .example h2 {
+        font-size: 40px;
+    }
+    #example1, 
+    #example2,
+    #example3,
+    #example4 {
+        float: left;
+        align-items: center;   
+    }
+    .example img {
+        max-width: 150px;
+    }
+    #aboutme p {
+        flex-direction: column;
+        flex:wrap;
+        flex-wrap: wrap;
+    }
+    #aboutme img {
+        max-width: 600px;
+    }
+
+}
+
+
