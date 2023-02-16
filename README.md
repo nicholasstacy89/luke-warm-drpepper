@@ -98,9 +98,9 @@ This Challenge is graded based on the following criteria:
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application.   https://nicholasstacy89.github.io/luke-warm-drpepper/
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.   https://github.com/nicholasstacy89/luke-warm-drpepper
 
 - - -
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
